@@ -365,7 +365,6 @@ async function openInstructions() {
     document.getElementById('nav-btn-back').style.display = 'none';
     document.getElementById('nav-btn-close-instruction').style.display = 'inline-block';
     
-    document.getElementById('video-area').style.display = 'none';
     document.getElementById('audio-box').style.display = 'none';
     document.getElementById('main-image').style.display = 'none';
     
@@ -394,7 +393,6 @@ async function openInstructions() {
 function closeInstructions() {
     stopScroll();
     document.getElementById('audio-player').pause();
-    document.getElementById('video-player').pause();
     
     if (localStorage.getItem('userEmail')) {
         switchView('start-screen');
@@ -447,14 +445,12 @@ async function loadTextContent(url) {
 function goBackToMenu() {
     stopScroll();
     document.getElementById('audio-player').pause();
-    document.getElementById('video-player').pause();
     switchView('view-menu');
 }
 
 function goHome() {
     stopScroll();
     document.getElementById('audio-player').pause();
-    document.getElementById('video-player').pause();
     switchView('view-grid');
 }
 
