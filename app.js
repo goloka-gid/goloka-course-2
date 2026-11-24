@@ -14,7 +14,7 @@ let userHomeworkProgress = {};
 // ↓↓↓ ВАЖНО: Замените URL на свой новый Apps Script URL ↓↓↓
 // (Отдельный Apps Script, привязанный к той же Google-таблице,
 // но пишущий в другой лист — см. google_apps_script.js и README.md)
-const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwg-FSU86SMkAfZGFuqDBEznjRhKJ_p5CtraJkjbc8kj5PLmkvdZwLBSOgx8O4CG0jo4w/exec";
+const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxq9y8mclGrcGsR-Xuu3I9sCgAtAQVmJagK3kWzFNpUSyBFwA6UTBdJca9xvDmJotPT8g/exec";
 
 let isScrolling = false;
 let scrollInterval;
