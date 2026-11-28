@@ -2,7 +2,7 @@
 // Имя кеша отличается от Курса 1, чтобы PWA не конфликтовали
 // у пользователей, установивших оба курса
 
-const CACHE_NAME = 'elli-world-2-v1';
+const CACHE_NAME = 'elli-world-2-v2';
 const STATIC_ASSETS = [
     './',
     './index.html',
